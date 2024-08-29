@@ -3,7 +3,7 @@ import goalsImg from "./assets/goals.jpg";
 import { useState } from "react";
 import CourseGoalList from "./components/CourseGoalList";
 import NewGoal from "./components/NewGoal";
-export default interface ICourseGoal {
+export interface ICourseGoal {
   title: string;
   description: string;
   id: number;
